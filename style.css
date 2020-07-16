@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+  transition: .20s ease-in-out;
+}
+
+nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 68px;
+  background: white;
+  transition: .15s;
+  box-shadow: 0 0 4px black;
+  padding: 5px;
+}
+
+.logo {
+  padding: 6px;
+  background: url(img/Logo.jpg);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 6px;
+}
+
+#sidebar {
+  width: 100%;
+  height: 0px;
+  background: black;
+  overflow-y: hidden;
+  position: fixed;
+  transition: .5s ease-in-out;
+  top: 63px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+#sidebar ul {
+  float: left;
+  margin-left: -25px;
+}
+
+#sidebar li {
+  list-style: none;
+  padding: 10px;
+  color: #fff;
+
+}
+
+#sidebar li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: verdana;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.burger {
+  float: right;
+  position: relative;
+  top: 0px;
+
+  margin-top: 10px;
+  background: none;
+  box-shadow: 0;
+  border-radius: 4px;
+  height: 35px;
+  width: 45px;
+  margin-right: 0px;
+  margin-left: 230px;
+  z-index: 3;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background: #111;
+  margin: 4px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+header {
+  height: 350px;
+  width: 100%;
+  background: url(img/Laptop.jpeg);
+  overflow: hidden;
+  background-attachment: fixed;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow-y: hidden !important;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, .6);
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.overlay h1,
+h5 {
+  margin: 35px;
+}
+
+
+section {
+  padding: 0px;
+  margin: 5px;
+
+}
+
+section .border-btm {
+  background: #000;
+  width: 80px;
+  height: 5px;
+  float: left;
+  margin: 10px 10px 10px 25px;
+  border-radius: 13px;
+}
+
+.posts-box {
+  box-shadow: 0px 2px 4px black;
+  margin: 29px 10px 10px 10px;
+  padding: 10px;
+
+}
+
+.post-box .img-cont {
+  overflow-x: hidden;
+}
+
+.posts-box h2 {
+  font-size: 22px;
+  color:#050506 ;
+  
+}
+.section btn-sucess{
+  float:right;
+  margin:15px;
+}
+.icons {
+
+  
+  width: 100%;
+  height: 70px;
+  margin-top: 2px;
+}
+
+.posts-box img {
+  width: 250px;
+  margin: 10px;
+  float: left;
+
+}
+.post-text p{
+  color:#575A80;
+  font-style: italic;
+  font-size: 15px;
+  
+}
+.icons{
+  margin-top:30px;
+  width:100%;
+  height:60px;
+  text-align: center;
+  padding:5px;
+  margin:auto;
+ 
+}
+
+section .fa{
+  padding:12px;
+  margin:10px 10px 15px 30px;
+  font-size: 33px;
+  
+}
+section .fa-github{
+  color:#186E0E;
+  
+}
+section .fa-instagram {
+  color:#D51265;
+
+}
+section .fa-facebook {
+  color:#0035FF;
+}
+footer {
+  width: 100%;
+  height: 90px;
+  position: relative;
+  left:0;
+  bottom:0;
+  right:0;
+  color: #fff;
+  margin-top: 50px;
+  padding: 12px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
